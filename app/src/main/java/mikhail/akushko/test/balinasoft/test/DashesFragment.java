@@ -165,7 +165,7 @@ public class DashesFragment extends Fragment {
 
             super.onPostExecute(dashes);
 
-
+// проверяем загрузилось ли в адаптер хоть что то из  интернета
             if (dashes.size() != 0) {
 
                 progressBar.setVisibility(View.INVISIBLE);
